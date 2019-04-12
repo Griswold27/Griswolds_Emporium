@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="emporium_main.css" rel="stylesheet" type="text/css" />
+        <script src="portfolioSC.js"></script>
+    </head>
+    <body>
+        <div class='page'>
+        <header class="nav title" id="banner">
+            <h1>Griswold's Emporium</h1>
+  <!--<div class="container"><a class="" href="#top"><img src="" alt="SCLARK" title="SCLARK"/></a>
+    <button class="btn-nav" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+   --> 
+   <div class='nav-bar'>
+   <nav>
+       <button onclick="location.href='index.html'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">Home</button>
+       <button onclick="location.href='#top'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">About</button>
+       <button onclick="location.href='#portfolio'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">Portfolio</button>
+       <button onclick="location.href='#contact'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">Contact</button>
+      
+  </nav>
+  </div>
+</header>
+<!-- end header--><a id="top"></a>
+<main class="container main-content">
+  <header>
+    <div class="intro-container">
+      <p>Developer with experience on personal projects.</p>
+      <hr class="pf-content"/><span class="skills">HTML <br> CSS <br> Java <br> C++</span>
+    </div><!--<img src="" alt="A picture of Seth" title="Seth"/>-->
+  </header>
+  <!-- Gallery Grid Section-->
+  <section id="portfolio">
+    <h2 id="subHead">Portfolio</h2>
+    <hr class="star-dark"/>
+    <p>Please look for additional content in the future.</p>
+    
+                
+    <ul class="grid">
+        <li><a href ="https://codepen.io/Griswold27/pen/wPyBBJ"><img src="Ramsay.png" alt="A simple page about Chef Gordon Ramsay designed by Seth Clark" title="A simple page about Chef Gordon Ramsay designed by Seth Clark"/></a></li>
+        <li><a href ="quoteMachine.html"><img src="quoteGenerator.png" alt=""/></a></li>
+      <li><img src="" alt=""/></li>
+      <li><img src="" alt=""/></li>
+      <li><img src="" alt=""/></li>
+      <li><img src="" alt=""/></li>
+    </ul>
+  </section>
+  <script>
+      function initElement() {
+        var p = document.getElementById("foo");
+        // NOTE: showAlert(); or showAlert(param); will NOT work here.
+        // Must be a reference to a function name, not a function call.
+        p.onclick = linkSite();
+      };
+
+      function linkSite(event) {
+        alert("onclick Event detected!");
+      }
+    </script>
+  <!-- Contact Section-->
+  <section id="contact">
+    <h2 id="subHead">Contact Me</h2>
+    <hr class="star-dark"/>
+    
+      
+      
+      <div>
+          <p>Please <a href="mailto:sethclark27@gmail.com">Email Me</a> with any questions or comments</p>
+
+      </div>
+   
+  </section>
+  <!-- Scroll to Top Button (Only supposed to be visible on small and small screen sizes)-->
+  <div class="scroll-top"><a class="button scrollable" href="#top"><i class="fa fa-chevron-up"></i></a></div>
+</main>
+<!-- Footer-->
+<div id="footer-above">
+    <div>
+      <h3>About this page</h3>
+      
+    </div>
+    
+  </div>
+        </div>
+        <footer>
+  <div id="footer-below">
+      <p>This page was Created and Deployed by Seth Clark</p>
+  </div>
+</footer>
+    </body>
+</html>

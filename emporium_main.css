@@ -1,0 +1,234 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 9, 2017, 4:29:24 PM
+    Author     : sethc
+*/
+
+head {
+    
+}
+
+body {
+    margin: 0;
+    color: magenta;
+    background-color: #444444;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+}
+
+.page {
+    background-color: #444444;
+    color: magenta;
+    margin: 0;
+    padding-top: 140px;
+}
+h1 {
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
+    font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    margin: 0;
+}
+
+img {
+    padding: 0px;
+    width: 75%;
+    height: auto;
+}
+
+ul{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    display: inline;
+list-style: none;
+
+margin: 10px;
+
+}
+
+
+#mainHead {
+    color: cyan;
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+}
+
+#secondaryHeader {
+    color: cyan;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+}
+
+#subHead {
+    color: #00BBBB;
+    text-align: left;
+    font-size: 1.7em;
+    font-family: 'Trebuchet MS', 'Century Gothic', sans-serif;
+}
+
+#banner{
+  background-color: #00BBBB !important;
+  height:auto;
+  flex-wrap:wrap;
+  box-shadow: 0px 2px 2px 1px rgba(0, 255, 255, 0.2);
+  border-color: cyan;
+  display: flex;
+  justify-content:space-around;
+  align-items:flex-start;
+  margin:0 auto;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  
+}
+#portfolio{
+    text-indent: 1em;
+    width: 98%;
+}
+
+#footer-above{
+    padding: 10px 10px 10px 10px;
+}
+
+#footer-below{
+  background-color: #00BBBB !important;
+  height:80px;
+  box-shadow: 1px 0px 2px 2px rgba(0, 255, 255, 0.2);
+  border-color: cyan;
+  margin: 0 auto;
+  position: inherit;
+  width: 100%;
+}
+.title {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+.nav-bar{
+    display: grid;
+    grid-column: 2/2;
+    grid-row: 1;
+} 
+
+.btn-nav {
+    display: wrap;
+    /* height: 20px;
+     width: 80px;*/
+    border: none;
+    background-color: #00BBBB;
+    padding: 10px;
+    margin-top: 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    color: #666;
+    
+    
+   
+
+}
+
+.btn-nav:active {
+        color: white;
+    }
+
+.btn-nav:hover {
+    box-shadow: 0px 2px 2px 1px #666;
+    cursor: pointer;
+}
+
+.main-content{
+    margin: auto;
+    color: white;
+    background-color: rgba(255, 255, 255, .5);
+    text-indent: 1em;
+    
+    
+}
+
+.container{
+    width:95%;
+    max-width:1024px;
+    justify-content:space-between;
+    align-items:center;
+    margin: auto;
+    
+}
+    
+    .intro-container{
+       color: white;
+       background-color: rgba(0, 0, 0, .3);
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        padding: 1em;
+    }
+    
+    
+    .grid{
+        
+    }
+    
+    @media (min-width: 50rem) {
+        img{
+            padding: 0px;
+            width: 450px;
+            height: auto;
+        }
+        #banner{
+            height: auto;
+            flex-wrap: wrap;
+            
+        }
+        .title{
+            grid-column: 1/1;
+            grid-row: 1;
+        }
+        .nav-bar{
+            grid-column: 1/1;
+            grid-row: 2;
+        }
+        .page{
+            padding-top: 80px;
+        }
+    }
+
+    
+    
+.nav-bar{
+    
+}
+
+.nav {
+  
+}
+
+.pf-content{
+    
+}
+  
+.paragraphHead{
+    
+}
+
+.paragraphContent{
+    
+}

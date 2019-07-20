@@ -86,6 +86,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
          
         // Close statement
         mysqli_stmt_close($stmt);
+    } else {
+        echo "Something's wrong with the query: " . mysqli_error($link);
     }
     
     // Close connection

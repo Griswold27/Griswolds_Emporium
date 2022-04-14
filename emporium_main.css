@@ -164,6 +164,19 @@ margin: 10px;
     
 }
 
+.bullet-list ul{
+    list-style-type: disc !important;
+    list-style: disc;
+    display: inline;
+    color: rgb(180, 3, 180);
+    
+}
+
+.bullet-list li{
+    display: list-item;
+    color: rgb(180, 3, 180);
+    list-style: disc !important;
+}
 .container{
     width:95%;
     max-width:1024px;

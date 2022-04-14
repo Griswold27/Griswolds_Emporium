@@ -3,10 +3,12 @@
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
+
+Note: Page created from portfolio as a template.
 -->
 <html>
     <head>
-        <title>Portfolio</title>
+        <title>Emporium Cafe</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="emporium_main.css" rel="stylesheet" type="text/css" />
@@ -15,16 +17,17 @@ and open the template in the editor.
     <body>
         <div class='page'>
         <header class="nav title" id="banner">
-            <h1>Griswold's Emporium</h1>
+            <h1>Emporium Cafe</h1>
   <!--<div class="container"><a class="" href="#top"><img src="" alt="SCLARK" title="SCLARK"/></a>
     <button class="btn-nav" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
    --> 
    <div class='nav-bar'>
    <nav>
        <button onclick="location.href='index.html'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">Home</button>
-       <button onclick="location.href='#top'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">About</button>
+       <button onclick="location.href='portfolioSC.html'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">Portfolio</button>
+       <!--<button onclick="location.href='#top'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">About</button>
        <button onclick="location.href='#portfolio'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">Portfolio</button>
-       <button onclick="location.href='#contact'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">Contact</button>
+       <button onclick="location.href='#contact'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">Contact</button>-->
       
   </nav>
   </div>
@@ -33,26 +36,46 @@ and open the template in the editor.
 <main class="container main-content">
   <header>
     <div class="intro-container">
-      <p>Developer with experience on personal projects.</p>
-      <hr class="pf-content"/><span class="skills">HTML <br> CSS <br> Java <br> C++</span>
+      <p>Emporium Cafe aims to serve all your tech and internet needs:</p>
+      <hr class="pf-content"/><span class="skills">Business and Premium Gaming Desktops <br> Maccle <br> Bring Your Own Computer Stations <br> Convenient Cafe <br> Free Seating Available!</span>
     </div><!--<img src="" alt="A picture of Seth" title="Seth"/>-->
   </header>
   <!-- Gallery Grid Section-->
   <section id="portfolio">
-    <h2 id="subHead">Portfolio</h2>
+    <h2 id="subHead">Computers and Internet</h2>
     <hr class="star-dark"/>
-    <p>Please look for additional content in the future.</p>
+    <p>
+    <img src="Computer_diddly.png" alt="Example of premium Computer experience..." title="A premium user experience"/>
+    <ul class='bullet-list'>
+        <li>Desktop: $11/hr; $24/day</li>
+        <li>Premium Gaming Desktop:   $16/hr; $32/day</li>
+        <li>Maccle: $4000/hr; Just go buy another lambo dude</li>
+        <li>Bring Your Own Computer seat: $5/hr; $12/day</li>
+        <li>Free seating available for lounging, card games and more!</li>
+    </ul>
+    </p>
+    <hr class="star-dark"/>
+    <!--<p>Please look for additional content in the future.</p>-->
     
                 
-    <ul class="grid">
-        <li><a href ="Emporium_Cafe.html"><img src="Computer_diddly.png" alt="goofy landing page for a hypothetical internet cafe" title="goofy landing page for a hypothetical internet cafe"/></a></li>
+    <!--<ul class="grid">
         <li><a href ="https://codepen.io/Griswold27/pen/wPyBBJ"><img src="Ramsay.png" alt="A simple page about Chef Gordon Ramsay designed by Seth Clark" title="A simple page about Chef Gordon Ramsay designed by Seth Clark"/></a></li>
         <li><a href ="quoteMachine.html"><img src="quoteGenerator.png" alt=""/></a></li>
       <li><img src="" alt=""/></li>
       <li><img src="" alt=""/></li>
       <li><img src="" alt=""/></li>
       <li><img src="" alt=""/></li>
-    </ul>
+    </ul>-->
+  </section>
+  <section id="portfolio">
+      <h2 id="subHead">Cafe Menu</h2>
+      <hr class="star-dark"/>
+      <ul class='bullet-list'>
+          <li>Caffeinated beverage of vague origin: $3.00</li>
+          <li>"Artisan" sandwich you could make at home: $24.00</li>
+          <li>College student food that necessitates using our greasy microwave: $0.23</li>
+          <li>Generic Energy Drink: $3.00</li>
+      </ul>
   </section>
   <script>
       function initElement() {

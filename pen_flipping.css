@@ -1,0 +1,25 @@
+ol{
+
+}
+
+li{
+    display:list-item;
+    list-style:decimal;
+    color:#710028;
+}
+
+.subhead3{
+    color:#004848;
+    font-family: 'Trebuchet MS', 'Century Gothic', sans-serif;
+}
+
+
+.center-img-present {
+    height:30em;
+    width:auto;
+    
+}
+
+.centered{
+    text-align:center;
+}

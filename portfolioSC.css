@@ -308,6 +308,9 @@ footer {
     text-align:center;
   }
 }
+.centered-display {
+  text-align:center;
+}
 .button {
   color: #fff;
   border:solid 2px #fff;

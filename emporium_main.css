@@ -203,6 +203,22 @@ margin: 10px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .faded-highlight {
+        animation: highlight 1s ease-in-out;
+    }
+
+    @keyframes highlight {
+        0% {
+            background-color: transparent;
+        }
+        50% {
+            background-color: magenta;
+        }
+        100% {
+            background-color: transparent;
+        }
+    }
     
     @media (min-width: 50rem) {
         img{

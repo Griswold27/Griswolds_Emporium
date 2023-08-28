@@ -10,7 +10,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="emporium_main.css" rel="stylesheet" type="text/css" />
-        <script src="portfolioSC.js"></script>
+
     </head>
     <body>
         <div class='page'>
@@ -19,29 +19,28 @@ and open the template in the editor.
   <!--<div class="container"><a class="" href="#top"><img src="" alt="SCLARK" title="SCLARK"/></a>
     <button class="btn-nav" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
    --> 
-   <div class='nav-bar'>
-   <nav>
-       <button onclick="location.href='index.html'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">Home</button>
-       <button onclick="location.href='#top'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">About</button>
-       <button onclick="location.href='#portfolio'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">Portfolio</button>
-       <button onclick="location.href='#contact'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">Contact</button>
-      
-  </nav>
-  </div>
-</header>
+          <div class='nav-bar'>
+          <nav>
+              <button onclick="location.href='index.html'" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">Home</button>
+              <button onclick="location.href='#portfolio'" data-target="#portfolio" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">Portfolio</button>
+              <button onclick="location.href='#contact'" data-target="#contact" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">Contact</button>
+              <button onclick="location.href='#footer-above'" data-target="#footer-above" class="btn-nav" type="button" data-toggle="collapse" aria-expanded="false">About</button>
+              
+          </nav>
+          </div>
+        </header>
 <!-- end header--><a id="top"></a>
 <main class="container main-content">
   <header>
     <div class="intro-container">
-      <p>Developer with experience on personal projects.</p>
-      <hr class="pf-content"/><span class="skills">HTML <br> CSS <br> Java <br> C++ <br> C# <br> .Net/Core</span>
+      <p>Developer and Student of Engineering</p>
+      <hr class="pf-content"/><span class="skills">Python <br> HTML <br> CSS <br> Java <br> C++ <br> C# <br> .Net/Core</span>
     </div><!--<img src="" alt="A picture of Seth" title="Seth"/>-->
   </header>
   <!-- Gallery Grid Section-->
   <section id="portfolio">
     <h2 id="subHead">Portfolio</h2>
     <hr class="star-dark"/>
-    <p>Please look for additional content in the future.</p>
     
                 
     <ul class="grid">
@@ -96,5 +95,7 @@ and open the template in the editor.
       <p>This page was Created and Deployed by Seth Clark</p>
   </div>
 </footer>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="portfolioSC.js"></script>
     </body>
 </html>
